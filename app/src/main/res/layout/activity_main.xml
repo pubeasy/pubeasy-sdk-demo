@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/is_personad"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            android:checked="true"
+            android:gravity="center"
+            android:text="开启个性化广告"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/is_privacyUser"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            android:checked="true"
+            android:gravity="center"
+            android:text="获取三方隐私权限"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/interstitial_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="@string/Interstitial"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rewarded_video_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="@string/RewardedVideo"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/native_ad_advanced"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="@string/AdvancedNative"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/nativebanner_ad"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50.0dip"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/NativeBanner"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textSize="16sp" />-->
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/banner_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="@string/Banner"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/splash_ads"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center"
+                android:text="@string/Splash"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/offerwall_ad"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50.0dip"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/OfferWall"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textSize="16sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/interactive_ads"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50.0dip"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/InterActivie"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textSize="16sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/meidavideo_ads"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50.0dip"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/MeidaVideo"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textSize="16sp" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/meidavideo_vmap_ads"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50.0dip"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/MeidaVideoVMAP"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textSize="16sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/draw_video_view"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50.0dip"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/NativeDraw"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textSize="16sp" />-->
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+</ScrollView>

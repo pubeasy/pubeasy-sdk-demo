@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/video_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/btn_mute"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:text="有声"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_load"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:text="加载"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_show"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:text="播放"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:text="暂停"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_resume"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:text="继续"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_destroy"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:text="销毁"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
