@@ -4,27 +4,24 @@ Pubeasy SDK 14.1.20.1
 
 
 # Getting Started with Integration
+```
+project’s build.gradle
+repositories {
+  maven {
+            url = uri("https://sdk-maven.pubeasy.io/repository/pubeasy")
+        }
+		}
+```
 ## app’s build.gradle
 ```javascript
    //noinspection GradleCompatible
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.3.0-alpha02'
   
-  api files("libs/pub-ad-14.1.20.1.aar")
+     api'io.pubeasy:pub-io:14.1.21.1'
 
-//   pubcore
-    api files("libs/pub-14.1.20.1.aar")
-    api files("libs/pub-core-14.1.20.1.aar")
-    api files("libs/pub-sdk-14.1.20.1.aar")
-
-//    pub-crosspromotion
-    api files("libs/pub-crosspromotion-27.14.1.20.1.aar")
-    api files("libs/pub_common-14.1.20.1.aar")
-    api files("libs/pub-om-sdk-1.4.10.aar")
-
-//    pub_exchange
-    implementation 'com.google.code.gson:gson:2.8.6'
-    api files("libs/pub_exchange-40.14.1.20.1.aar")
+   implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
 //获取gaid
      api('com.google.android.gms:play-services-ads-identifier:18.2.0')
 ```
