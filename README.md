@@ -4,7 +4,7 @@ Pubeasy SDK 14.1.20.1
 
 
 # Getting Started with Integration
-##project’s build.gradle
+## project’s build.gradle
 ```
 repositories {
   maven {
